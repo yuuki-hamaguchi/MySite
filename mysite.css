@@ -1,0 +1,326 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	height: 70px;
+}
+
+.nav-list {
+	float: right;
+}
+.nav-list-item {
+	float: left;
+	font-size: 16px;
+	color: #FAFAFA;
+	padding: 0 30px;
+	width: 120px;
+	list-style: none;
+}
+
+.main-visual {
+	background-image: url(img/mv.png);
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	background-position: center;
+}
+
+.title {
+	font-size: 64px;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 10px;
+	color: #FAFAFA;
+	font-weight: bold;
+}
+
+.textm {
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+.color {
+	background-color: #ECEFF1;
+}
+.portfolio{
+	width: 920px;
+	margin: 0 auto;
+}
+
+.title2{
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.border{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
+.text2 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.content {
+	margin: 0 auto;
+}
+
+.img {
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+
+.img:nth-child(1){
+	background-image: url(img/sketch.jpg);
+}
+
+.img:nth-child(2){
+	background-image: url(img/websuku.png);
+}
+
+.img:nth-child(3){
+	background-image: url(img/write.jpg);
+}
+
+.img:nth-child(4){
+	background-image: url(img/webcamp.png);
+}
+.img:nth-child(5){
+	background-image: url(img/talk.jpg);
+}
+.img:nth-child(6){
+	background-image: url(img/webcamp-mother.png);
+}
+
+.img:nth-child(4),
+.img:nth-child(5),
+.img:nth-child(6){
+	margin-bottom: 90px;
+	margin-top: 10px;
+}
+
+.img:nth-child(1),
+.img:nth-child(2),
+.img:nth-child(4),
+.img:nth-child(5){
+	margin-right: 10px;
+}
+
+.feature {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.title3 {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	padding-bottom: 8px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.text3 {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.strength1 {
+	width: 320px;
+	float: left;
+	padding-right: 10px;
+}
+
+.strength2 {
+	width: 320px;
+	float: left;
+	padding-right: 10px;
+}
+
+.strength {
+	padding-bottom: 90px;
+}
+
+.size {
+	font-size: 5rem;
+}
+
+.sub-title {
+	font-size: 20px;
+	color: #000;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.profile {
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.title4 {
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.text4 {
+	padding-top: 30px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+
+.yoko {
+	padding-top: 30px;
+	margin-bottom: 90px;
+}
+
+.picture {
+	width: 512px;
+	float:left;
+}
+
+.man {
+	border-radius: 250px;
+}
+
+.right {
+	width: 512px;
+	float: left;
+}
+
+.mynamewright {
+	font-size: 20px;
+}
+
+.text5 {
+	padding-top: 5px;
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 20px;
+}
+
+.myskillswright{
+	font-size: 20px;
+}
+
+.text6{
+	font-size: 16px;
+	color: #000;
+	padding-top: 5px;
+}
+
+.contact {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.title4{
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.text7 {
+	padding: 30px 0px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+
+.left {
+	width: 400px;
+	margin: 0 auto;
+	float: left;
+}
+
+.right2 {
+	width: 400px;
+	margin: 0 auto;
+	float: left;
+}
+
+.mail {
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.adress {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.tel {
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.num {
+	text-align: center;
+}
+
+.sns {
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.icon {
+	font-size: 3rem;
+	text-align: center;
+	padding-right: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+
+.last {
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	line-height: 60px;
+}
