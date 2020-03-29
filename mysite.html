@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <script src="https://kit.fontawesome.com/e1c703e478.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="mysite.css">
   <title>MySite</title>
@@ -9,7 +10,15 @@
 <body>
 	<header>
 		<div class="container clearfix">
-		<img src="img/logo.png" height="70" width="156">
+			<div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+      	<li class="nav-list-item">Portfolio</li>
+      </div>
+  </div>
+		<img src="img/logo.png" class="img1">
 		<nav>
 			<ul class="nav-list">
 				<li class="nav-list-item">Portfolio</li>
