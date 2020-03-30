@@ -19,10 +19,10 @@ header {
 .container {
 	width: 1024px;
 	margin: 0 auto;
-	height: 70px;
 }
 
 .img1 {
+	float: left;
 	height: 70px;
 	width: 156px;
 }
@@ -36,6 +36,7 @@ header {
 	padding: 0 30px;
 	width: 120px;
 	list-style: none;
+	line-height: 70px;
 }
 
 .main-visual {
@@ -544,11 +545,12 @@ footer {
 	.picture {
 		float: none;
 		margin:0 auto;
-		width: 100%;
+		width: 250px;
+		height: 250px;
 	}
 
 	.man {
-		margin-left: 100px;
+		margin:0 auto;
 	}
 
 	.right {
